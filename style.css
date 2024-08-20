@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+    ;
+    background-position: center;
+    height: 80vh;
+    
+
+}
+header a{
+    text-decoration: none;
+    color: rgba(245, 32, 4, 0.966);
+    bottom: 30px;
+}
+header{
+    display: flex;
+    
+    
+}
+
+#logo{
+    flex: 2;
+    font-size: 1.25em;
+
+}
+
+nav{
+    flex:1;
+    display: flex;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color: rgb(5, 224, 224);
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: center;
+    padding: 10em;
+    margin-bottom: 50px;
+}
+.maintext div{
+    margin-top: .7em;
+
+}
+.maintext button{
+    width: 10vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: aqua;
+    color:black;
+    border: 1px solid black;
+    border-width: .3em;
+}
+.menu{
+    display: grid;
+    background: linear-gradient(to right,rgb(212, 125, 125)rgba(248, 2, 2, 0.966));
+    color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: flex;
+}
+.starters{
+    display: inline;
+    margin-right: 200px;
+    
+}
+.MainCourse{
+    display: inline;
+    margin-right: 200px;
+
+}
+
+h2{      
+    margin-bottom: 4px;   
+    
+}
+h4{
+    margin-top: 1px;
+}
+.menu{
+  color:black;
+  font-size: 20px;  
+}
+.chats{
+    padding-left: 30px;
+}
+h1{
+
+}
+.butten{
+    color: black;
+}
+a{
+    color:  black
+    
+}
+form{
+
+    width: 30vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 1em;
+    
+    color: black;
+    border: 1px solid black;
+    border-width: .3em;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: x-large;
+
+}
+header a:hover{
+    color: aqua;
+}
+.headerb{
+    margin: 30px;
+}
+
+
